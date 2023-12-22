@@ -1,11 +1,9 @@
-import { useState } from 'react'
-
+import Login from './features/identity/components/Login'
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-    <p>This is a dashbored</p>
+    <Login/>
     </>
   )
 }
